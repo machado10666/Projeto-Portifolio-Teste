@@ -1,0 +1,6 @@
+.DS_Store       # Arquivos do macOS
+node_modules/   # Pasta de módulos do Node.js
+/build          # Pasta de build
+/dist           # Pasta de distribuição
+*.log           # Arquivos de log
+*.tmp           # Arquivos temporários

@@ -1,0 +1,118 @@
+body {
+    background-color: #000000;
+    color: #F6F6F6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+strong {
+    color: #22D4FD;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    color: #22D4FD;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.profile-image {
+    width: 250px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    border-radius: 50%; /* Para deixar a imagem redonda */
+    border: 3px solid #22D4FD; /* Borda ao redor da imagem */
+    box-shadow: 0 0 20px rgba(34, 212, 253, 0.5); /* Sombra ao redor da imagem */
+    margin-top: 20px;
+    display: block; /* Para centralizar a imagem */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo para os botões */
+header nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header nav button {
+    background-color: #22D4FD;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+header nav button:hover {
+    background-color: #1ea8c7;
+}
+
+/* Estilo para a área de conteúdo dinâmico */
+#conteudoDinamico {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#conteudoDinamico ul {
+    list-style: none;
+    padding: 0;
+}
+
+#conteudoDinamico ul li {
+    margin: 10px 0;
+}
+
+#conteudoDinamico a {
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+#conteudoDinamico a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #111;
+    color: #F6F6F6;
+    border-top: 1px solid #22D4FD;
+}
+
+footer a {
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.texto-grande {
+    font-size: 1.2em;
+    line-height: 2.1;
+}
