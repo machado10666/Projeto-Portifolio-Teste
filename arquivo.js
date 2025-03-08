@@ -12,7 +12,7 @@ function exibirConteudo(conteudo) {
     // Configura um timeout para esconder o conteúdo após 5 segundos (5000 ms)
     setTimeout(function () {
         conteudoDinamico.style.display = 'none'; // Esconde a div
-    }, 23000); // 23000 milissegundos = 23 segundos
+    }, 22000); // 22000 milissegundos = 22 segundos
 }
 
 // Evento para o botão "Habilidades"
