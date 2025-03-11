@@ -4,7 +4,7 @@ const btnProjetos = document.getElementById('btnProjetos');
 const btnSobre = document.getElementById('btnSobre');
 const conteudoDinamico = document.getElementById('conteudoDinamico');
 
-// Função para exibir o conteúdo e depois escondê-lo após 5 segundos
+// Função para exibir o conteúdo e depois escondê-lo após 23 segundos
 function exibirConteudo(conteudo) {
     conteudoDinamico.innerHTML = conteudo; // Exibe o conteúdo
     conteudoDinamico.style.display = 'block'; // Garante que a div seja visível
