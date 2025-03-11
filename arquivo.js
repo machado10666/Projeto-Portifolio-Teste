@@ -9,7 +9,7 @@ function exibirConteudo(conteudo) {
     conteudoDinamico.innerHTML = conteudo; // Exibe o conteúdo
     conteudoDinamico.style.display = 'block'; // Garante que a div seja visível
 
-    // Configura um timeout para esconder o conteúdo após 5 segundos (5000 ms)
+    // Configura um timeout para esconder o conteúdo após 23 segundos (5000 ms)
     setTimeout(function () {
         conteudoDinamico.style.display = 'none'; // Esconde a div
     }, 23000); // 23000 milissegundos = 23 segundos
